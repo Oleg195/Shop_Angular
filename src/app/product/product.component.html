@@ -1,0 +1,23 @@
+
+<div class="product-card fonss">
+  <div class="images">
+    <img [src]="product.image" class="" />
+</div>
+    <div class="fon_shop ">
+      <div class="card-text">
+      <p  class="description">{{ product.id }}</p>
+      <h1 class="title">{{ product.title }}</h1>
+      <p  class="description">RAM:{{ product.spec.RAM }}</p>
+      <p  class="description">ROM:{{ product.spec.ROM }}</p>
+    </div>
+    <div class="price-and-cart">
+      <p class="price">price:{{ product.price }}</p>
+      <a href=""><button class="card-text-button scale">add to cart</button></a>
+        <a href=""><button class="card-text-button scale">buy now</button></a>
+        <a class="success-2 scale" href="/products scale">Return to the Catalogг</a>
+      </div>
+   
+  </div>
+</div>
+
+

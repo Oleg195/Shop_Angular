@@ -1,0 +1,48 @@
+/* You can add global styles to this file, and also import other style files */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.fons{background-image: url("https://miro.medium.com/max/1200/1*QzauABtdiK0xImK6Ye_XLw.jpeg");
+    background-repeat: no-repeat;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.text{text-align: center;}
+
+.fonss{background-image: url("https://avatars.mds.yandex.net/get-images-cbir/1917749/fuSwElyw05l5NK8UpNk3jw7582/ocr");}
+
+.fon_menu{background-color: aqua;
+    color: darkblue;
+    font-size: medium;
+    text-align: center;}
+    .w-56{width: 150px;
+    height: 100px;
+    text-align: center;
+    background-position: center;}
+    
+    .fon_shop{    font-size: x-large;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        position: relative;
+        border: 1px solid #EFEFEF;
+        margin: 50px 70px;
+    }
+    
+    .scale {
+        transition: 1s; /* Время эффекта */
+       }
+       .scale:hover {
+        transform: scale(1.2)}
+    
+    .auth_login{display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;}

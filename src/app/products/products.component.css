@@ -1,0 +1,13 @@
+.fl{    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.mid{
+    text-align: center;
+}
+

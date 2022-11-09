@@ -1,0 +1,36 @@
+<div class="fonss">
+<p>cart works!</p>
+<h1>Products</h1>
+    <div class="fl">
+      <div *ngFor="let product of products" class="card w-96 bg-base-100 shadow-xl"  >
+          <img [src]="product.image" class="max-h-40 w-full object-contain"  />
+          <div class="bg-white dark:bg-gray-800 w-full p-4" >
+            <p class="text-indigo-500 text-md font-medium"></p>
+            <p>id: {{ product.id }}</p>
+            <p class="text-gray-800 dark:text-white text-xl font-medium mb-2">
+              title: {{ product.title }}
+            </p>
+    
+            <p class="text-gray-400 dark:text-gray-300 font-light text-md">
+              price: {{ product.price }}
+            </p>
+            <p class="text-gray-400 dark:text-gray-300 font-light text-md">
+              RAM: {{ product.spec.RAM }}
+            </p>
+            <p class="text-gray-400 dark:text-gray-300 font-light text-md">
+              ROM:{{ product.spec.ROM }}
+            </p>
+            
+            <button>Удалить</button>
+          </div>
+      </div>
+    <div>
+        <button> Купить</button>
+        <button>Удалить все</button>
+        <button routerLink="/products">Products</button>
+
+    </div>
+      <br />
+    </div>
+</div>
+    <router-outlet></router-outlet>
